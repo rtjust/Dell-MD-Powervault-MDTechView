@@ -1,0 +1,946 @@
+
+Session Identifier (SSID):                   0x400001370002:2                                                          
+  Initiator Session ID (ISID):               0x400001370002                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32769                                                                     
+  Initiator user label:                      WACWGADC008-01-ExchangeDatabas                                            
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgadc008-01.wga.local                        
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           WACWGADC008-01                                                            
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 0                                          
+      Initiator IPv4 address:                192.168.1.20                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.74                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgadc008-01.wga.local                        
+
+Session Identifier (SSID):                   0x400001370002:2                                                          
+  Initiator Session ID (ISID):               0x400001370002                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32770                                                                     
+  Initiator user label:                      wacwganims08-07-ImageServer                                               
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwganims08-07.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwganims08-07                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 0                                          
+      Initiator IPv4 address:                192.168.1.36                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.74                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwganims08-07.wga.local                       
+
+Session Identifier (SSID):                   0x400001370003:2                                                          
+  Initiator Session ID (ISID):               0x400001370003                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32771                                                                     
+  Initiator user label:                      wacwgadb08-04-NexGenDB                                                    
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgadb08-04.wga.local                         
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgadb08-04                                                             
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 0                                          
+      Initiator IPv4 address:                192.168.1.32                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.74                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgadb08-04.wga.local                         
+
+Session Identifier (SSID):                   0x400001370003:2                                                          
+  Initiator Session ID (ISID):               0x400001370003                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32772                                                                     
+  Initiator user label:                      test                                                                      
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           WACWGANTIS08-10                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 1                                          
+      Initiator IPv4 address:                192.168.1.39                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.75                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+
+Session Identifier (SSID):                   0x40000137000F:2                                                          
+  Initiator Session ID (ISID):               0x40000137000F                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32773                                                                     
+  Initiator user label:                      test                                                                      
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           WACWGANTIS08-10                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 3                                          
+      Initiator IPv4 address:                192.168.1.39                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.77                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+
+Session Identifier (SSID):                   0x400001370003:2                                                          
+  Initiator Session ID (ISID):               0x400001370003                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32774                                                                     
+  Initiator user label:                      wacwgafps08-06-NetworkShare                                               
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgafps08-06.wga.local                        
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgafps08-06                                                            
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 0                                          
+      Initiator IPv4 address:                192.168.1.35                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.74                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgafps08-06.wga.local                        
+
+Session Identifier (SSID):                   0x40000137000B:2                                                          
+  Initiator Session ID (ISID):               0x40000137000B                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32775                                                                     
+  Initiator user label:                      test                                                                      
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           WACWGANTIS08-10                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 0                                          
+      Initiator IPv4 address:                192.168.1.39                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.74                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+
+Session Identifier (SSID):                   0x40000137000D:2                                                          
+  Initiator Session ID (ISID):               0x40000137000D                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32776                                                                     
+  Initiator user label:                      test                                                                      
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           WACWGANTIS08-10                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 2                                          
+      Initiator IPv4 address:                192.168.1.39                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.76                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+
+Session Identifier (SSID):                   0x400001370002:2                                                          
+  Initiator Session ID (ISID):               0x400001370002                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32777                                                                     
+  Initiator user label:                      wacwganrhs08-09ReportsHQM                                                 
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwganrhs08-09.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwganrhs08-09                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 0                                          
+      Initiator IPv4 address:                192.168.1.38                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.74                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwganrhs08-09.wga.local                       
+
+Session Identifier (SSID):                   0x400001370002:2                                                          
+  Initiator Session ID (ISID):               0x400001370002                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32778                                                                     
+  Initiator user label:                      wgpvdb01-ProvatoinDBServer                                                
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wgpvdb01.wga.local                              
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wgpvdb01                                                                  
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 0                                          
+      Initiator IPv4 address:                192.168.1.22                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.74                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wgpvdb01.wga.local                              
+
+Session Identifier (SSID):                   0x400001370002:2                                                          
+  Initiator Session ID (ISID):               0x400001370002                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32806                                                                     
+  Initiator user label:                      wacwgadb08-04-NexGenDB                                                    
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgadb08-04.wga.local                         
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgadb08-04                                                             
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 0                                          
+      Initiator IPv4 address:                192.168.1.32                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.74                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgadb08-04.wga.local                         
+
+Session Identifier (SSID):                   0x400001370001:2                                                          
+  Initiator Session ID (ISID):               0x400001370001                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32807                                                                     
+  Initiator user label:                      wacwgadb08-04-NexGenDB                                                    
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgadb08-04.wga.local                         
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgadb08-04                                                             
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 0                                          
+      Initiator IPv4 address:                192.168.1.32                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.74                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgadb08-04.wga.local                         
+
+Session Identifier (SSID):                   0x400001370004:2                                                          
+  Initiator Session ID (ISID):               0x400001370004                                                            
+  Target Portal Group Tag (TPGT):            2                                                                         
+  Target Session Identifier:                 32808                                                                     
+  Initiator user label:                      wacwgafax08-05-SAN                                                        
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgafax08-05.wga.local                        
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgafax08-05                                                            
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 1, port 0                                          
+      Initiator IPv4 address:                192.168.1.33                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.74                                                              
+    Target portal group tag:                 2                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgafax08-05.wga.local                        
+
+Session Identifier (SSID):                   0x400001370005:1                                                          
+  Initiator Session ID (ISID):               0x400001370005                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 2                                                                         
+  Initiator user label:                      test                                                                      
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           WACWGANTIS08-10                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 1                                          
+      Initiator IPv4 address:                192.168.1.39                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.71                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+
+Session Identifier (SSID):                   0x400001370007:1                                                          
+  Initiator Session ID (ISID):               0x400001370007                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 3                                                                         
+  Initiator user label:                      test                                                                      
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           WACWGANTIS08-10                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 2                                          
+      Initiator IPv4 address:                192.168.1.39                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.72                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+
+Session Identifier (SSID):                   0x400001370002:1                                                          
+  Initiator Session ID (ISID):               0x400001370002                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 4                                                                         
+  Initiator user label:                      wacwgafps08-06-NetworkShare                                               
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgafps08-06.wga.local                        
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgafps08-06                                                            
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 0                                          
+      Initiator IPv4 address:                192.168.1.35                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.70                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgafps08-06.wga.local                        
+
+Session Identifier (SSID):                   0x400001370001:1                                                          
+  Initiator Session ID (ISID):               0x400001370001                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 5                                                                         
+  Initiator user label:                      WACWGADC008-01-ExchangeDatabas                                            
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgadc008-01.wga.local                        
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           WACWGADC008-01                                                            
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 0                                          
+      Initiator IPv4 address:                192.168.1.20                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.70                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgadc008-01.wga.local                        
+
+Session Identifier (SSID):                   0x400001370001:1                                                          
+  Initiator Session ID (ISID):               0x400001370001                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 6                                                                         
+  Initiator user label:                      wacwganrhs08-09ReportsHQM                                                 
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwganrhs08-09.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwganrhs08-09                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 0                                          
+      Initiator IPv4 address:                192.168.1.38                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.70                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwganrhs08-09.wga.local                       
+
+Session Identifier (SSID):                   0x400001370001:1                                                          
+  Initiator Session ID (ISID):               0x400001370001                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 7                                                                         
+  Initiator user label:                      wacwganims08-07-ImageServer                                               
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwganims08-07.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwganims08-07                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 0                                          
+      Initiator IPv4 address:                192.168.1.36                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.70                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwganims08-07.wga.local                       
+
+Session Identifier (SSID):                   0x400001370001:1                                                          
+  Initiator Session ID (ISID):               0x400001370001                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 8                                                                         
+  Initiator user label:                      test                                                                      
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           WACWGANTIS08-10                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 0                                          
+      Initiator IPv4 address:                192.168.1.39                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.70                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+
+Session Identifier (SSID):                   0x400001370001:1                                                          
+  Initiator Session ID (ISID):               0x400001370001                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 9                                                                         
+  Initiator user label:                      wacwgafps08-06-NetworkShare                                               
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgafps08-06.wga.local                        
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgafps08-06                                                            
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 0                                          
+      Initiator IPv4 address:                192.168.1.35                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.70                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgafps08-06.wga.local                        
+
+Session Identifier (SSID):                   0x400001370001:1                                                          
+  Initiator Session ID (ISID):               0x400001370001                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 11                                                                        
+  Initiator user label:                      wacwgafax08-05-SAN                                                        
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgafax08-05.wga.local                        
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgafax08-05                                                            
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 1                                          
+      Initiator IPv4 address:                192.168.1.33                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.71                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgafax08-05.wga.local                        
+
+Session Identifier (SSID):                   0x400001370009:1                                                          
+  Initiator Session ID (ISID):               0x400001370009                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 12                                                                        
+  Initiator user label:                      test                                                                      
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           WACWGANTIS08-10                                                           
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 3                                          
+      Initiator IPv4 address:                192.168.1.39                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.73                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgantis08-10.wga.local                       
+
+Session Identifier (SSID):                   0x400001370002:1                                                          
+  Initiator Session ID (ISID):               0x400001370002                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 14                                                                        
+  Initiator user label:                      wacwgafax08-05-SAN                                                        
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgafax08-05.wga.local                        
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgafax08-05                                                            
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 1                                          
+      Initiator IPv4 address:                192.168.1.33                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.71                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgafax08-05.wga.local                        
+
+Session Identifier (SSID):                   0x400001370000:1                                                          
+  Initiator Session ID (ISID):               0x400001370000                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 15                                                                        
+  Initiator user label:                      wgpvdb01-ProvatoinDBServer                                                
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wgpvdb01.wga.local                              
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wgpvdb01                                                                  
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 0                                          
+      Initiator IPv4 address:                192.168.1.22                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.70                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wgpvdb01.wga.local                              
+
+Session Identifier (SSID):                   0x400001370000:1                                                          
+  Initiator Session ID (ISID):               0x400001370000                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 17                                                                        
+  Initiator user label:                      wacwgafax08-05-SAN                                                        
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgafax08-05.wga.local                        
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgafax08-05                                                            
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 3                                          
+      Initiator IPv4 address:                192.168.1.33                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.73                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgafax08-05.wga.local                        
+
+Session Identifier (SSID):                   0x400001370000:1                                                          
+  Initiator Session ID (ISID):               0x400001370000                                                            
+  Target Portal Group Tag (TPGT):            1                                                                         
+  Target Session Identifier:                 18                                                                        
+  Initiator user label:                      wacwgadb08-04-NexGenDB                                                    
+  Initiator iSCSI name:                      iqn.1991-05.com.microsoft:wacwgadb08-04.wga.local                         
+  Initiator iSCSI alias:                                                                                               
+  Associated Host:                           wacwgadb08-04                                                             
+                                                                                                                       
+  Associated connection IDs (CID):                                                                                     
+    CID:                                     0x1                                                                       
+      Ethernet port identifier:              RAID Controller Module 0, port 0                                          
+      Initiator IPv4 address:                192.168.1.32                                                              
+                                                                                                                       
+  Negotiated login parameters:                                                                                         
+    Authentication method:                   None                                                                      
+    Header digest method:                    None                                                                      
+    Data digest method:                      None                                                                      
+    Maximum connections:                     8                                                                         
+    Target alias:                                                                                                      
+    Initiator alias:                                                                                                   
+    Target IP address:                       192.168.1.70                                                              
+    Target portal group tag:                 1                                                                         
+    Initial R2T:                             Yes                                                                       
+    Maximum burst length:                    65536                                                                     
+    First burst length:                      8192                                                                      
+    Default time to wait:                    0                                                                         
+    Default time to retain:                  60                                                                        
+    Maximum outstanding R2T:                 1                                                                         
+    Error recovery level:                    0                                                                         
+    Maximum receive data segment length:     65536                                                                     
+                                                                                                                       
+    Target name:                             iqn.1984-05.com.dell:powervault.md3200i.6782bcb0003105cf000000004dbb58cc  
+    Initiator name:                          iqn.1991-05.com.microsoft:wacwgadb08-04.wga.local                         
+

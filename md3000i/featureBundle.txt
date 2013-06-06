@@ -1,0 +1,41 @@
+FEATURE BUNDLE FOR STORAGE ARRAY:           GoldenbergSAN (Tue Dec 11 11:45:57 EST 2012)                 
+                                                                                                         
+Total virtual disks allowed:                256                                                          
+                                                                                                         
+Total virtual disks allowed per partition:  256                                                          
+                                                                                                         
+Management application client:              2                                                            
+                                                                                                         
+Physical Disks supported:                   DELL; 7730                                                   
+                                                                                                         
+Expansion enclosures supported:             DELL,MD1000*,SIM_CARD                                        
+                                                                                                         
+Expansion enclosure expansion:              2                                                            
+                                                                                                         
+High Performance Tier:                      No data is available about supported values of this feature  
+
+Storage Partitioning
+   Enabled by default:      Yes  
+   Default limit:           16   
+   Enable/Upgrade via key:  Yes  
+   Limit with feature key:  32   
+
+Snapshot Virtual Disks
+   Enabled by default:       No   
+   Enable/Upgrade via key:   Yes  
+   Total snapshots allowed:  128  
+
+Virtual Disk Copy
+   Enabled by default:      No   
+   Enable/Upgrade via key:  Yes  
+   Total copies allowed:    255  
+
+Remote Virtual Disk Mirroring
+   Enabled by default:      No  
+   Enable/Upgrade via key:  No  
+   Total mirrors allowed:   0   
+
+Mixed Physical Disk Types
+   Enabled by default:      Yes  
+   Enable/Upgrade via key:  No   
+

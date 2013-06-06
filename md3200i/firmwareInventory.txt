@@ -1,0 +1,41 @@
+PowerVault MD Storage Manager                                
+   EMW Version:                10.84.G6.25                   
+   Report Date:                Tue Feb 26 12:25:06 CST 2013  
+                                                             
+Storage Array                                                
+   Storage Array Name:         WGASAN01                      
+   Current Package Version:    07.84.44.60                   
+   Current NVSRAM Version:     N26X0-784890-004              
+   Staged Package Version:     None                          
+   Staged NVSRAM Version:      None                          
+                                                             
+RAID Controller Modules                                      
+   Location:                   Enclosure 0, Slot 0           
+   Current Package Version:    07.84.44.60                   
+   Current NVSRAM Version:     N26X0-784890-004              
+   Board ID:                   2660                          
+   Sub-Model ID:               143                           
+                                                             
+   Location:                   Enclosure 0, Slot 1           
+   Current Package Version:    07.84.44.60                   
+   Current NVSRAM Version:     N26X0-784890-004              
+   Board ID:                   2660                          
+   Sub-Model ID:               143                           
+                                                             
+Power Supplies                                               
+   Location:                   Enclosure 0 Left              
+   Firmware Version:           Not Available                 
+                                                             
+   Location:                   Enclosure 0 Right             
+   Firmware Version:           Not Available                 
+                                                             
+Physical Disk     
+   Enclosure, Drawer, Slot:     Manufacturer:     Product ID:          Physical Disk Type:            Capacity:        Physical Disk Firmware Version:     FPGA Version: (SSD only)  
+   Enclosure 0, Slot 0          SEAGATE           ST32000444SS         Serial Attached SCSI (SAS)     1,862.516 GB     KS68                                Not Available             
+   Enclosure 0, Slot 1          SEAGATE           ST32000444SS         Serial Attached SCSI (SAS)     1,862.516 GB     KS68                                Not Available             
+   Enclosure 0, Slot 2          SEAGATE           ST32000444SS         Serial Attached SCSI (SAS)     1,862.516 GB     KS68                                Not Available             
+   Enclosure 0, Slot 3          SEAGATE           ST32000444SS         Serial Attached SCSI (SAS)     1,862.516 GB     KS68                                Not Available             
+   Enclosure 0, Slot 4          SEAGATE           ST32000444SS         Serial Attached SCSI (SAS)     1,862.516 GB     KS68                                Not Available             
+   Enclosure 0, Slot 5          SEAGATE           ST32000444SS         Serial Attached SCSI (SAS)     1,862.516 GB     KS68                                Not Available             
+   Enclosure 0, Slot 6          TOSHIBA           MK2001TRKB           Serial Attached SCSI (SAS)     1,862.516 GB     DCA8                                Not Available             
+   Enclosure 0, Slot 7          SEAGATE           ST32000444SS         Serial Attached SCSI (SAS)     1,862.516 GB     KS68                                Not Available             

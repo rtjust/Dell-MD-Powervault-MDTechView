@@ -1,0 +1,1118 @@
+PROFILE FOR STORAGE ARRAY: GoldenbergSAN (Tue Dec 11 11:44:33 EST 2012)
+
+
+SUMMARY------------------------------
+
+   RAID Controller Module redundancy mode: Simplex (single RAID controller module)
+   Number of RAID controller modules: 1
+
+
+   Number of disk groups: 2
+
+   RAID 6: Enabled
+
+
+   Total number of virtual disks used:     3    
+      Number of standard virtual disks:    2    
+      Number of access virtual disks:      1    
+   Total number of virtual disks allowed:  256  
+
+
+
+   Snapshot Virtual Disks:                                  Enabled  
+      Number of snapshots used:                             0        
+      Number of snapshots allowed:                          4        
+      Number of snapshots allowed per source virtual disk:  128      
+
+
+   Virtual Disk Copy:            Enabled  
+      Number of copies used:     0        
+      Number of copies allowed:  255      
+
+
+   Number of physical disks:        14                      
+   Mixed physical disk types:       Enabled                 
+   Current physical disk type(s):   Serial ATA (SATA) (14)  
+   Total hot spare physical disks:  1                       
+      Standby:                      1                       
+      In use:                       0                       
+
+
+   Number of expansion enclosures:          0  
+   Number of expansion enclosures allowed:  2  
+
+
+   Storage Partitioning:             Enabled  
+      Number of partitions used:     1        
+      Number of partitions allowed:  16       
+   Number of virtual disks allowed per partition: 256
+
+
+   Access virtual disk:  LUN 31,31 (see Mappings section for details)                     
+   Default host OS:      Windows Server 2003/Server 2008 Non-Clustered (Host OS index 0)  
+
+
+   Current configuration                                              
+      Firmware version:                             07.35.38.60       
+      NVSRAM version:                               N1532-735890-905  
+      EMW version:                                  03.35.G6.50       
+      AMW version:                                  03.35.G6.50       
+   Pending configuration                                              
+      Staged firmware download supported:           Yes               
+      Firmware version:                             None              
+      NVSRAM version:                               None              
+      Transferred on:                               None              
+   RAID Controller Module enclosure audible alarm:  Disabled          
+
+
+   NVSRAM configured for batteries:          Yes  
+                                                  
+   Start cache flushing at (in percentage):  80   
+   Stop cache flushing at (in percentage):   80   
+   Cache block size (in KB):                 4    
+
+   Media scan frequency (in days): 15
+
+   Failover alert delay (in minutes): 5
+
+   Feature enable identifier: 32550000000000000000000047B5DBCC
+
+   Feature pack: Enhanced
+   Feature pack submodel ID: 63
+
+   Storage array world-wide identifier (ID): 6001E4F00019900D000000004954F846
+
+iSCSI Settings
+
+   Target name:   iqn.1984-05.com.dell:powervault.6001e4f00019900d0000000047b63a50  
+   Target alias:  Goldenberg-array                                                  
+
+
+   Target authentication:        None             
+      CHAP secret defined:       No               
+                                                  
+   Target discovery                               
+      iSNS server registration:  Disabled         
+         IPv4 Configuration:     DHCP             
+         IPv4 IP address:        0.0.0.0          
+         IPv6 IP address:        0:0:0:0:0:0:0:0  
+         TCP listening port:     3205             
+      Disallow unnamed discovery sessions: No
+
+   CONTROLLERS------------------------------
+      Number of RAID controller modules: 1
+
+         RAID Controller Module in Enclosure 0, Slot 0
+          
+
+            Status:                      Online                        
+                                                                       
+            Current configuration                                      
+               Firmware version:         07.35.38.60                   
+                  Appware version:       07.35.38.60                   
+                  Bootware version:      07.35.38.60                   
+               NVSRAM version:           N1532-735890-905              
+            Pending configuration                                      
+               Firmware version:         None                          
+                  Appware version:       None                          
+                  Bootware version:      None                          
+               NVSRAM version:           None                          
+               Transferred on:           None                          
+            Replacement part number:     Not Available                 
+            Model name:                  1532                          
+            Board ID:                    1532                          
+            Submodel ID:                 63                            
+            Product ID:                  MD3000i                       
+            Revision:                    0735                          
+            Replacement part number:                                   
+            Part number:                 0NY223                        
+            Serial number:               7CK002U                       
+            Vendor:                      DELL                          
+            Date of manufacture:         December 22, 2007             
+            Data Cache                                                 
+               Total present:            310 MB                        
+               Total used:               310 MB                        
+            Processor cache:                                           
+               Total present:            202 MB                        
+            Host Interface Board                                       
+               Status:                   Optimal                       
+               Location:                 Slot 1                        
+               Type:                     iSCSI                         
+               Number of ports:          2                             
+               Board ID:                 0502                          
+               Replacement part number:  Not Available                 
+               Part number:              Not Available                 
+               Serial number:            Not Available                 
+               Vendor:                   Not Available                 
+               Date of manufacture:      Not available                 
+            Date/Time:                   Tue Dec 11 11:44:34 EST 2012  
+
+         Associated Virtual Disks (* = Preferred Owner): 
+         EXCHDATA*, Xenstorage*
+
+
+         RAID Controller Module DNS/Network name:   JVZYMF1   
+            Remote login:                           Disabled  
+
+
+         Ethernet port:                 1                                        
+            Link status:                Up                                       
+            MAC address:                00:1e:4f:19:90:0d                        
+            Negotiation mode:           Auto-negotiate                           
+               Port speed:              100 Mbps                                 
+               Duplex mode:             Full duplex                              
+            IPv4 settings:              Enabled                                  
+               Network configuration:   DHCP/Bootp                               
+               IP address:              10.2.100.109                             
+               Subnet mask:             255.255.255.0                            
+               Gateway:                 0.0.0.0                                  
+            IPv6 settings:              Enabled                                  
+               Auto-configuration:      Stateless                                
+               Local IP address:        FE80:0000:0000:0000:021E:4FFF:FE19:900D  
+                                                                                 
+
+
+         Physical Disk interface:  SAS        
+            Channel:               1          
+            Port:                  Expansion  
+               Status:             Up         
+            Maximum data rate:     3 Gbps     
+            Current data rate:     3 Gbps     
+
+         Physical Disk interface:  SAS            
+            Channel:               2              
+            Port:                  Expansion      
+               Status:             Failed         
+            Maximum data rate:     3 Gbps         
+            Current data rate:     Not available  
+
+         Host interface:                  iSCSI                          
+            Channel:                      1                              
+            Port:                         0                              
+            Link status:                  Connected                      
+            MAC address:                  00:1e:4f:19:90:0f              
+            Duplex mode:                  Full duplex                    
+            Current port speed:           1000 Mbps                      
+            Maximum port speed:           1000 Mbps                      
+            iSCSI RAID controller module                                 
+               Vendor:                    QLogic Corporation             
+               Part number:               4032                           
+               Serial number:             46533130353135413032393937000  
+               Firmware revision:         3.0.1.47                       
+            TCP listening port:           3260                           
+            Maximum transmission unit:    1500 bytes/frame               
+            ICMP PING responses:          Enabled                        
+            IPv4:                         Enabled                        
+               Network configuration:     Static                         
+               IP address:                192.168.130.101                
+                  Configuration status:   Configured                     
+               Subnet mask:               255.255.255.0                  
+               Gateway:                   0.0.0.0                        
+               Ethernet priority:         Disabled                       
+                  Priority:               0                              
+               Virtual LAN (VLAN):        Disabled                       
+                  VLAN ID:                1                              
+            IPv6:                         Disabled                       
+               Auto-configuration:        Enabled                        
+               Local IP address:          0:0:0:0:0:0:0:0                
+                  Configuration status:   Unconfigured                   
+               Routable IP address 1:     0:0:0:0:0:0:0:0                
+                  Configuration status:   Unconfigured                   
+               Routable IP address 2:     0:0:0:0:0:0:0:0                
+                  Configuration status:   Unconfigured                   
+               Router IP address:         0:0:0:0:0:0:0:0                
+               Ethernet priority:         Disabled                       
+                  Priority:               0                              
+               Virtual LAN (VLAN):        Disabled                       
+                  VLAN ID:                1                              
+               Hop limit:                 64                             
+               Neighbor discovery                                        
+                  Reachable time:         30000 ms                       
+                  Retransmit time:        1000 ms                        
+                  Stale timeout:          30000 ms                       
+                  Duplicate address detection transmit count: 1
+
+
+         Host interface:                  iSCSI               
+            Channel:                      2                   
+            Port:                         1                   
+            Link status:                  Connected           
+            MAC address:                  00:1e:4f:19:90:11   
+            Duplex mode:                  Full duplex         
+            Current port speed:           1000 Mbps           
+            Maximum port speed:           1000 Mbps           
+            iSCSI RAID controller module                      
+               Vendor:                    QLogic Corporation  
+               Part number:               4032                
+               Serial number:             0000000000000000    
+               Firmware revision:         3.0.1.47            
+            TCP listening port:           3260                
+            Maximum transmission unit:    1500 bytes/frame    
+            ICMP PING responses:          Enabled             
+            IPv4:                         Enabled             
+               Network configuration:     Static              
+               IP address:                192.168.131.101     
+                  Configuration status:   Configured          
+               Subnet mask:               255.255.255.0       
+               Gateway:                   0.0.0.0             
+               Ethernet priority:         Disabled            
+                  Priority:               0                   
+               Virtual LAN (VLAN):        Disabled            
+                  VLAN ID:                0                   
+            IPv6:                         Disabled            
+               Auto-configuration:        Enabled             
+               Local IP address:          0:0:0:0:0:0:0:0     
+                  Configuration status:   Unconfigured        
+               Routable IP address 1:     0:0:0:0:0:0:0:0     
+                  Configuration status:   Unconfigured        
+               Routable IP address 2:     0:0:0:0:0:0:0:0     
+                  Configuration status:   Unconfigured        
+               Router IP address:         0:0:0:0:0:0:0:0     
+               Ethernet priority:         Disabled            
+                  Priority:               0                   
+               Virtual LAN (VLAN):        Disabled            
+                  VLAN ID:                0                   
+               Hop limit:                 64                  
+               Neighbor discovery                             
+                  Reachable time:         30000 ms            
+                  Retransmit time:        1000 ms             
+                  Stale timeout:          30000 ms            
+                  Duplicate address detection transmit count: 1
+
+
+   DISK GROUPS------------------------------
+
+      Number of disk groups: 2
+
+
+      Name:                          XenGroup                          
+                                                                       
+         Status:                     Optimal                           
+                                                                       
+         Capacity                    4.772 TB                          
+         RAID level:                 5                                 
+                                                                       
+         Physical Disk type:         Serial ATA (SATA)                 
+         Enclosure loss protection:  No                                
+                                                                       
+         Current owner:              RAID Controller Module in slot 0  
+
+
+         Associated virtual disks and free capacity
+
+
+            Virtual Disk      Capacity       
+               Xenstorage        4.091 TB    
+               Free Capacity     698.133 GB  
+                                             
+
+
+         Associated physical disks - present (in piece order)
+
+
+            Enclosure     Slot  
+               0             1  
+               0             2  
+               0             3  
+               0             4  
+               0             5  
+               0             6  
+               0             7  
+               0             8  
+
+
+
+
+      Name:                          XenGroup2                         
+                                                                       
+         Status:                     Optimal                           
+                                                                       
+         Capacity                    1.364 TB                          
+         RAID level:                 10                                
+                                                                       
+         Physical Disk type:         Serial ATA (SATA)                 
+         Enclosure loss protection:  No                                
+                                                                       
+         Current owner:              RAID Controller Module in slot 0  
+
+
+         Associated virtual disks and free capacity
+
+
+            Virtual Disk  Capacity     
+               EXCHDATA      1.364 TB  
+                                       
+
+
+         Associated physical disks - present (in piece order)
+
+
+            Enclosure     Slot                                                              
+               0             13 [mirrored pair with physical disk at enclosure 0, slot 12]  
+               0             11 [mirrored pair with physical disk at enclosure 0, slot 10]  
+               0             12 [mirrored pair with physical disk at enclosure 0, slot 13]  
+               0             10 [mirrored pair with physical disk at enclosure 0, slot 11]  
+
+
+
+   STANDARD VIRTUAL DISKS------------------------------
+
+   SUMMARY
+
+      Number of standard virtual disks: 2
+
+      See other Virtual Disks sub-tabs for premium feature information.
+
+
+      NAME        STATUS   CAPACITY  RAID LEVEL  DISK GROUP  DRIVE TYPE  
+      EXCHDATA    Optimal  1.364 TB  10          XenGroup2   SATA        
+      Xenstorage  Optimal  4.091 TB  5           XenGroup    SATA        
+
+   DETAILS
+
+
+      Virtual Disk name:                      EXCHDATA                                         
+                                                                                               
+         Virtual Disk status:                 Optimal                                          
+                                                                                               
+         Capacity:                            1.364 TB                                         
+         Virtual Disk world-wide identifier:  60:01:e4:f0:00:19:90:0d:00:00:b6:74:50:c5:95:b7  
+         Subsystem ID (SSID):                 0                                                
+         Associated disk group:               XenGroup2                                        
+         RAID level:                          10                                               
+                                                                                               
+         Physical Disk type:                  Serial ATA (SATA)                                
+         Enclosure loss protection:           No                                               
+                                                                                               
+         Preferred owner:                     RAID Controller Module in slot 0                 
+         Current owner:                       RAID Controller Module in slot 0                 
+
+
+         Segment size:                                       128 KB    
+         Capacity reserved for future segment size changes:  Yes       
+         Maximum future segment size:                        2,048 KB  
+         Modification priority:                              High      
+
+
+         Read cache:                            Enabled                        
+         Write cache:                           Enabled (currently suspended)  
+            Write cache without batteries:      Disabled                       
+            Write cache with mirroring:         Disabled                       
+         Flush write cache after (in seconds):  10.00                          
+         Dynamic cache read prefetch:           Enabled                        
+                                                                               
+         Enable background media scan:          Enabled                        
+         Media scan with consistency check:     Enabled                        
+                                                                               
+         Pre-Read consistency check:            Disabled                       
+
+
+      Virtual Disk name:                      Xenstorage                                       
+                                                                                               
+         Virtual Disk status:                 Optimal                                          
+                                                                                               
+         Capacity:                            4.091 TB                                         
+         Virtual Disk world-wide identifier:  60:01:e4:f0:00:19:90:0d:00:00:92:3a:4c:a9:b3:b7  
+         Subsystem ID (SSID):                 4                                                
+         Associated disk group:               XenGroup                                         
+         RAID level:                          5                                                
+                                                                                               
+         Physical Disk type:                  Serial ATA (SATA)                                
+         Enclosure loss protection:           No                                               
+                                                                                               
+         Preferred owner:                     RAID Controller Module in slot 0                 
+         Current owner:                       RAID Controller Module in slot 0                 
+
+
+         Segment size:                                       128 KB    
+         Capacity reserved for future segment size changes:  Yes       
+         Maximum future segment size:                        2,048 KB  
+         Modification priority:                              High      
+
+
+         Read cache:                            Enabled                        
+         Write cache:                           Enabled (currently suspended)  
+            Write cache without batteries:      Disabled                       
+            Write cache with mirroring:         Disabled                       
+         Flush write cache after (in seconds):  10.00                          
+         Dynamic cache read prefetch:           Enabled                        
+                                                                               
+         Enable background media scan:          Enabled                        
+         Media scan with consistency check:     Enabled                        
+                                                                               
+         Pre-Read consistency check:            Disabled                       
+
+   SNAPSHOT REPOSITORY VIRTUAL DISKS------------------------------
+
+      Number of snapshot repositories: 0
+
+   SNAPSHOT VIRTUAL DISKS------------------------------
+
+      Number of snapshot virtual disks: 0
+
+   COPIES------------------------------
+
+      Number of copies: 0
+
+   MISSING VIRTUAL DISKS------------------------------
+
+      Number of missing virtual disks: 0
+
+   DRIVES------------------------------
+
+   SUMMARY
+      Number of physical disks: 14
+         Current physical disk types: Serial ATA (SATA) (14)
+
+      BASIC:
+
+         TRAY, SLOT  STATUS   CAPACITY    TYPE  CURRENT DATA RATE  PRODUCT ID                                FIRMWARE VERSION  
+         0, 1        Optimal  698.638 GB  SATA  3 Gbps             ST3750640NS                                   3BKT          
+         0, 2        Optimal  698.638 GB  SATA  3 Gbps             Hitachi HUA721075KLA330                   GK8OAJ0A          
+         0, 3        Optimal  698.638 GB  SATA  3 Gbps             Hitachi HUA721075KLA330                   GK8OAJ0A          
+         0, 4        Optimal  698.638 GB  SATA  3 Gbps             Hitachi HUA721075KLA330                   GK8OAJ0A          
+         0, 5        Optimal  698.638 GB  SATA  3 Gbps             Hitachi HUA721075KLA330                   GK8OAJ0A          
+         0, 6        Optimal  698.638 GB  SATA  3 Gbps             Hitachi HUA721075KLA330                   GK8OAJ0A          
+         0, 7        Optimal  698.638 GB  SATA  3 Gbps             Hitachi HUA721075KLA330                   GK8OAJ0A          
+         0, 8        Optimal  698.638 GB  SATA  3 Gbps             ST3750640NS                                   3BKT          
+         0, 9        Optimal  698.638 GB  SATA  3 Gbps             ST3750640NS                                   3BKT          
+         0, 10       Optimal  698.638 GB  SATA  3 Gbps             ST3750640NS                                   3BKT          
+         0, 11       Optimal  698.638 GB  SATA  3 Gbps             Hitachi HUA721075KLA330                   GK8OAJ0A          
+         0, 12       Optimal  698.638 GB  SATA  3 Gbps             ST3750640NS                                   3BKT          
+         0, 13       Optimal  698.638 GB  SATA  3 Gbps             ST3750640NS                                   3BKT          
+         0, 14       Optimal  698.638 GB  SATA  3 Gbps             ST3750640NS                                   3BKT          
+
+      DRIVE CHANNELS:
+
+         TRAY, SLOT  PREFERRED CHANNEL  REDUNDANT CHANNEL                 
+         0, 1        1                  Physical Disk path redundancy: 0  
+         0, 2        1                  Physical Disk path redundancy: 0  
+         0, 3        1                  Physical Disk path redundancy: 0  
+         0, 4        1                  Physical Disk path redundancy: 0  
+         0, 5        1                  Physical Disk path redundancy: 0  
+         0, 6        1                  Physical Disk path redundancy: 0  
+         0, 7        1                  Physical Disk path redundancy: 0  
+         0, 8        1                  Physical Disk path redundancy: 0  
+         0, 9        1                  Physical Disk path redundancy: 0  
+         0, 10       1                  Physical Disk path redundancy: 0  
+         0, 11       1                  Physical Disk path redundancy: 0  
+         0, 12       1                  Physical Disk path redundancy: 0  
+         0, 13       1                  Physical Disk path redundancy: 0  
+         0, 14       1                  Physical Disk path redundancy: 0  
+
+
+   HOT SPARE COVERAGE:
+      The following disk groups are not protected: None - All disk groups are protected
+      Total hot spare physical disks: 1
+
+         Standby:  1  
+         In use:   0  
+
+      Standby physical disk at enclosure 0, slot 9 (SATA, 698.638 GB)
+         Protects the following disk groups: XenGroup, XenGroup2
+
+
+      DETAILS
+      Physical Disk at Enclosure 0, Slot 1
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:c5:00:09:9b:ac:11:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup                                         
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     ST3750640NS                               
+         Package version:                    3BKT                                  
+         Firmware version:                   3BKT                                  
+         Serial number:                  5QD4PEKB                                  
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 2
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:cc:a2:15:d3:3a:4f:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup                                         
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     Hitachi HUA721075KLA330                   
+         Package version:                GK8OAJ0A                                  
+         Firmware version:               GK8OAJ0A                                  
+         Serial number:                  GTF202P8HB97SF                            
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 3
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:cc:a2:15:d2:d6:ae:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup                                         
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     Hitachi HUA721075KLA330                   
+         Package version:                GK8OAJ0A                                  
+         Firmware version:               GK8OAJ0A                                  
+         Serial number:                  GTF202P8HAER0F                            
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 4
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:cc:a2:15:d3:39:af:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup                                         
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     Hitachi HUA721075KLA330                   
+         Package version:                GK8OAJ0A                                  
+         Firmware version:               GK8OAJ0A                                  
+         Serial number:                  GTF202P8HB92LF                            
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 5
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:cc:a2:15:d2:97:9c:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup                                         
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     Hitachi HUA721075KLA330                   
+         Package version:                GK8OAJ0A                                  
+         Firmware version:               GK8OAJ0A                                  
+         Serial number:                  GTF202P8H9WX5F                            
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 6
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:cc:a2:15:d2:d6:a7:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup                                         
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     Hitachi HUA721075KLA330                   
+         Package version:                GK8OAJ0A                                  
+         Firmware version:               GK8OAJ0A                                  
+         Serial number:                  GTF202P8HAEPTF                            
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 7
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:cc:a2:15:d2:b3:71:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup                                         
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     Hitachi HUA721075KLA330                   
+         Package version:                GK8OAJ0A                                  
+         Firmware version:               GK8OAJ0A                                  
+         Serial number:                  GTF202P8HA4A0F                            
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 8
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:c5:00:09:9b:ac:98:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup                                         
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     ST3750640NS                               
+         Package version:                    3BKT                                  
+         Firmware version:                   3BKT                                  
+         Serial number:                  5QD4HN0B                                  
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 9
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Hot spare standby                                
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:c5:00:09:9b:a7:62:00:00:00:00:00:00:00:00  
+         Associated disk group:   None                                             
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     ST3750640NS                               
+         Package version:                    3BKT                                  
+         Firmware version:                   3BKT                                  
+         Serial number:                  5QD4P4HJ                                  
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 10
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:c5:00:09:9b:ad:20:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup2                                        
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     ST3750640NS                               
+         Package version:                    3BKT                                  
+         Firmware version:                   3BKT                                  
+         Serial number:                  5QD4PCSV                                  
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 11
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:cc:a2:15:d3:3a:33:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup2                                        
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     Hitachi HUA721075KLA330                   
+         Package version:                GK8OAJ0A                                  
+         Firmware version:               GK8OAJ0A                                  
+         Serial number:                  GTF202P8HB96VF                            
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 12
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:c5:00:09:9b:c3:4c:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup2                                        
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     ST3750640NS                               
+         Package version:                    3BKT                                  
+         Firmware version:                   3BKT                                  
+         Serial number:                  5QD4P4YV                                  
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 13
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Assigned                                         
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:c5:00:09:9b:ac:a3:00:00:00:00:00:00:00:00  
+         Associated disk group:   XenGroup2                                        
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     ST3750640NS                               
+         Package version:                    3BKT                                  
+         Firmware version:                   3BKT                                  
+         Serial number:                  5QD4P6AT                                  
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+      Physical Disk at Enclosure 0, Slot 14
+       
+
+         Status:                  Optimal                                          
+                                                                                   
+         Mode:                    Unassigned                                       
+         Raw capacity:            698.638 GB                                       
+         Usable capacity:         698.138 GB                                       
+         World-wide identifier:   50:00:c5:00:09:9b:c6:8e:00:00:00:00:00:00:00:00  
+         Associated disk group:   None                                             
+
+
+
+
+         Physical Disk path redundancy:  OK                                        
+         Physical Disk type:             Serial ATA (SATA)                         
+                                                                                   
+         Speed:                          7,200 RPM                                 
+         Current data rate:              3 Gbps                                    
+         Product ID:                     ST3750640NS                               
+         Package version:                    3BKT                                  
+         Firmware version:                   3BKT                                  
+         Serial number:                  5QD4MXFJ                                  
+         Vendor:                         Not Available                             
+         Date of manufacture:            Not Available                             
+
+   DRIVE CHANNELS----------------------------
+
+      SUMMARY
+
+
+         CHANNEL  PORT       STATUS   
+         1        Expansion  Optimal  
+         2        Expansion  Optimal  
+
+      DETAILS
+
+         DRIVE CHANNEL 1
+
+            Port: Expansion
+               Status: Optimal
+               Max. Rate: Not available
+               Current Rate: Not available
+               Rate Control: Switched
+               DRIVE COUNTS
+
+                  Total # of attached physical disks: 14
+                  Connected to: 0
+                     Attached physical disks: 14
+                        Expansion enclosure: 0 (14 physical disks)
+
+
+               CUMULATIVE ERROR COUNTS
+
+                  RAID Controller Module 0
+
+                     Baseline time set:                       12/4/12 5:51:36 PM  
+                     Sample period (days, hh:mm:ss):          6 days, 18:02:57    
+                     RAID Controller Module detected errors:  0                   
+                     Physical Disk detected errors:           23                  
+                     Timeout errors:                          0                   
+                     Total I/O count:                         172097980           
+
+                  RAID Controller Module 1
+
+                     Baseline time set:                       12/4/12 5:51:36 PM  
+                     Sample period (days, hh:mm:ss):          6 days, 18:02:57    
+                     RAID Controller Module detected errors:  0                   
+                     Physical Disk detected errors:           0                   
+                     Timeout errors:                          0                   
+                     Total I/O count:                         0                   
+
+            DRIVE CHANNEL 2
+
+               Port: Expansion
+                  Status: Optimal
+                  Max. Rate: Not available
+                  Current Rate: Not available
+                  Rate Control: Switched
+                  DRIVE COUNTS
+
+                     Total # of attached physical disks: 14
+                     Connected to: 1
+                        Attached physical disks: 14
+                           Expansion enclosure: 0 (14 physical disks)
+
+
+                  CUMULATIVE ERROR COUNTS
+
+                     RAID Controller Module 0
+
+                        Baseline time set:                       12/4/12 5:51:36 PM  
+                        Sample period (days, hh:mm:ss):          6 days, 18:02:57    
+                        RAID Controller Module detected errors:  0                   
+                        Physical Disk detected errors:           0                   
+                        Timeout errors:                          0                   
+                        Total I/O count:                         0                   
+
+                     RAID Controller Module 1
+
+                        Baseline time set:                       12/4/12 5:51:36 PM  
+                        Sample period (days, hh:mm:ss):          6 days, 18:02:57    
+                        RAID Controller Module detected errors:  0                   
+                        Physical Disk detected errors:           0                   
+                        Timeout errors:                          0                   
+                        Total I/O count:                         0                   
+
+         ENCLOSURES------------------------------
+ RAID Enclosure 0 Overall Component Information
+
+
+
+         Enclosure audible alarm:      Disabled           
+         Enclosure path redundancy:    OK                 
+         Current physical disk types:  Serial ATA (SATA)  
+         Part number:                  Not Available      
+         Serial number:                JVZYMF1            
+         Vendor:                       DELL               
+         Date of manufacture:          Not Available      
+         Asset tag:                    Not Available      
+         Chassis name:                 MD3000i            
+         Service tag:                  JVZYMF1            
+
+
+ Batteries Detected: 1
+
+
+
+         Battery status:              Failed                       
+         Location:                    RAID Controller Module 0     
+         Age:                         1,319 days                   
+         Days until replacement:      Not applicable               
+         Last learn cycle:            October 27, 2012             
+         Next learn cycle:            January 26, 2013             
+         Weeks between learn cycles:  13                           
+         Part number:                 PN JY200                     
+         Serial number:               SN 047117AI4354              
+         Vendor:                      VN DELL                      
+         Date of manufacture:         November 1, 2007             
+
+
+
+ Power Supply/Cooling Fan Modules Detected:  2
+
+
+
+         Power Supply/Cooling Fan module 2 status:  Optimal         
+         Part number:                               0MX838A00       
+         Serial number:                             CN179727BO12ZU  
+         Vendor:                                    DELL            
+         Date of manufacture:                       Not Available   
+
+
+         Power Supply/Cooling Fan module 1 status:  Optimal         
+         Part number:                               0MX838A00       
+         Serial number:                             CN179727BO12ZE  
+         Vendor:                                    DELL            
+         Date of manufacture:                       Not Available   
+
+
+       Power Supplies Detected:  2
+
+
+
+               Power supply status:  Optimal                      
+               Location:             Power supply module (right)  
+               Part number:          0MX838A00                    
+               Serial number:        CN179727BO12ZU               
+               Vendor:               DELL                         
+               Date of manufacture:  Not Available                
+
+
+               Power supply status:  Optimal                     
+               Location:             Power supply module (left)  
+               Part number:          0MX838A00                   
+               Serial number:        CN179727BO12ZE              
+               Vendor:               DELL                        
+               Date of manufacture:  Not Available               
+
+
+
+       Fans Detected:  4
+
+
+
+               Fan Status:  Optimal            
+               Location:    Fan module (left)  
+
+
+               Fan Status:  Optimal            
+               Location:    Fan module (left)  
+
+
+               Fan Status:  Optimal             
+               Location:    Fan module (right)  
+
+
+               Fan Status:  Optimal             
+               Location:    Fan module (right)  
+
+
+
+
+ Temperature Sensors Detected:  3
+
+
+
+         Temperature sensor status:  Optimal                            
+         Location:                   Power Supply/Cooling Fan module 1  
+
+
+         Temperature sensor status:  Optimal                            
+         Location:                   Power Supply/Cooling Fan module 2  
+
+
+         Temperature sensor status:  Optimal                   
+         Location:                   RAID Controller Module 0  
+
+
+
+
+         MAPPINGS (Storage Partitioning - Enabled (1 of 16 used))-------------------
+
+
+            Virtual Disk Name    LUN  RAID Controller Module  Accessible by            Virtual Disk status  
+            Access Virtual Disk  31   0                       Host Group XenHostGroup  Optimal              
+            EXCHDATA             0    0                       Host xenhost1            Optimal              
+            Xenstorage           1    0                       Host xenhost1            Optimal              
+            Access Virtual Disk  31   0                       Storage Array            Optimal              
+
+
+            TOPOLOGY DEFINITIONS                                                        
+                                                                                        
+               STORAGE ARRAY                                                            
+                  Default type:          Windows Server 2003/Server 2008 Non-Clustered  
+                  Initiator:             iqn.2010-10.com.xs56host1:b684edca             
+                  Initiator:             iqn.2010-11.com.example:8bb5984a               
+                                                                                        
+                  Default Group                                                         
+                                                                                        
+                  Host Group:            XenHostGroup                                   
+                     Host:               xenhost1                                       
+                        Host type:       Linux                                          
+                        Initiator:       iqn.2010-10.com.xs56host1:b684edca             
+                           Alias:        XenHost1                                       
+                           Label:        xenhost11                                      
+                           CHAP secret:  None                                           
+                                                                                        
+                        Host type:       Linux                                          
+                        Initiator:       iqn.2010-11.com.example:8bb5984a               
+                           Alias:        XenHost2                                       
+                           Label:        xenhost11                                      
+                           CHAP secret:  None                                           
+                                                                                        
+                                                                                        
+            NVSRAM HOST TYPE DEFINITIONS
+
+            NOTE: The following indexes are not used: 3 - 15
+
+
+            HOST TYPE                                      AVT STATUS  ASSOCIATED INDEX  
+            Linux                                          Disabled    1                 
+            Windows Server 2003/Server 2008 Clustered      Disabled    2                 
+            Windows Server 2003/Server 2008 Non-Clustered  Disabled    0 (Default)       
+
