@@ -12,6 +12,7 @@ class MDSupportBundle(object):
         self.parsed_mel = self.parse_mel()
 
     def get_storage_array_profile(self):
+        # New comment, test
         # Load storageArrayProfile into memory and return its contents
         try:
             with open(self.storage_array_profile_path, 'r') as storage_array_profile:
