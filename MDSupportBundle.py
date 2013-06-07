@@ -12,11 +12,6 @@ class MDSupportBundle(object):
         self.parsed_mel = self.parse_mel()
 
     def get_storage_array_profile(self):
-<<<<<<< HEAD
-        # New comment, test
-        #test 123
-=======
->>>>>>> parent of aa19c68... Test git, new comment
         # Load storageArrayProfile into memory and return its contents
         try:
             with open(self.storage_array_profile_path, 'r') as storage_array_profile:
