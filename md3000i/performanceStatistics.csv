@@ -1,6 +1,0 @@
-GoldenbergSAN, Slot 0
-virtual disk,Time, Total Requests Serviced, Total Blocks Requested, Total Read Requests, Total Read Blocks Requested, Total Write Requests, Total Write Blocks Requested, Total Percent Read Requests, Total Average Blocks Requested, Total Large Reads, Total Large Read Blocks Requested, Total Large Writes, Total Large Write Blocks Requested, Total Cache Read Checks, Total Cache Read Check Hits, Total Cache Write Requests 
-EXCHDATA, Tue Dec 11 11:45:14 EST 2012, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-Xenstorage, Tue Dec 11 11:45:14 EST 2012, 87765414, 1348103646, 54574375, 285649852, 33191039, 1062453794, 13, 64, 0, 0, 0, 0, 54301841, 42058842, 0
-GoldenbergSAN, Slot 1
-No Performance data to gather

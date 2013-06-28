@@ -1,14 +1,15 @@
 from MELEvent import MELEvent
+import os
 
 class MDSupportBundle(object):
     """Represents an MD support bundle directory and the files within"""
     def __init__(self, bundle_path):
         self.bundle_path = bundle_path
-        self.storage_array_profile_path = bundle_path + r'/storageArrayProfile.txt'
-        self.major_event_log_path = bundle_path + r'/majorEventLog.txt'
-        self.recovery_guru_path = bundle_path + r'/recoveryGuruProcedures.html'
-        self.state_capture_data_path = bundle_path + r'/stateCaptureData.txt'
-        self.iscsi_sessions_path = bundle_path + r'/iscsiSessionConnections.txt'
+        self.storage_array_profile_path = bundle_path + os.sep + 'storageArrayProfile.txt'
+        self.major_event_log_path = bundle_path + os.sep + 'majorEventLog.txt'
+        self.recovery_guru_path = bundle_path + os.sep + 'recoveryGuruProcedures.html'
+        self.state_capture_data_path = bundle_path + os.sep + 'stateCaptureData.txt'
+        self.iscsi_sessions_path = bundle_path + os.sep + 'iscsiSessionsConnections.txt'
         self.parsed_mel = self.parse_mel()
 
     def get_storage_array_profile(self):

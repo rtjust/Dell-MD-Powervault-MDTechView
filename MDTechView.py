@@ -1,5 +1,7 @@
 import sys
 import os
+import zipfile
+from PyQt4.QtCore import QString
 from MDSupportBundle import MDSupportBundle
 from PyQt4.QtGui import QApplication, QMainWindow, QFontMetrics, QFont, QColor, QFileDialog, QAction, QIcon
 from PyQt4 import QtNetwork
@@ -20,6 +22,29 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.textSAP.SendScintilla(self.textSAP.SCI_SETHSCROLLBAR, 0)
         self.textStateCap.SendScintilla(self.textStateCap.SCI_SETHSCROLLBAR, 0)
 
+        self.setAcceptDrops(True)
+        self.droppedFile = None
+
+    def dragEnterEvent(self, event):
+        self.droppedFile = None
+        if event.mimeData().hasUrls():
+            url = event.mimeData().urls()[0]
+            if url.isValid():
+                if url.scheme() == "file":
+                    self.droppedFile = url.toLocalFile()
+                    event.accept()
+ 
+    def dropEvent(self, event):
+        print 'Dropped file: ' + self.droppedFile # displays the file name   
+        if zipfile.is_zipfile(self.droppedFile):
+            print 'is zipfile'
+            with zipfile.ZipFile(str(self.droppedFile)) as tempZip:
+                print 'Extract to: ' + str(self.droppedFile.split(os.sep)[len(self.droppedFile.split(os.sep)) - 1].split('.')[0])
+                tempZip.extractall(str(self.droppedFile.split(os.sep)[len(self.droppedFile.split(os.sep)) - 1].split('.')[0]))
+                self.load_bundle(self.droppedFile.split('.')[0])
+
+            
+
     def show_dialog(self):
         path_dialog = QFileDialog()
         path_dialog.setFileMode(QFileDialog.Directory)
@@ -27,8 +52,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         if bundle_path:
             self.labelPath.setText('Current Bundle Path: ' + bundle_path)
             self.load_bundle(bundle_path)
-        else:
-            self.labelPath.setText('Current Bundle Path: None')
             
     
     def load_bundle(self, bundle_path):
@@ -36,8 +59,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.textSAP.clear()
         self.textMEL.clear()
         self.textStateCap.clear()
-        
-        
+
+        if bundle_path:
+            self.labelPath.setText('Current Bundle Path: ' + bundle_path)
+        else:
+            self.labelPath.setText('Current Bundle Path: None')
+             
 
         support_bundle = MDSupportBundle(bundle_path)
         
@@ -68,4 +95,4 @@ def main():
     sys.exit(app.exec_())
 
 if __name__ == '__main__':
-    main()    
+    main()
