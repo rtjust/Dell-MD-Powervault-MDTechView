@@ -19,7 +19,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         self.textMEL.SendScintilla(self.textMEL.SCI_SETHSCROLLBAR, 0)
         self.textiSCSI.SendScintilla(self.textiSCSI.SCI_SETHSCROLLBAR, 0)
-        self.textSAP.SendScintilla(self.textSAP.SCI_SETHSCROLLBAR, 0)
         self.textStateCap.SendScintilla(self.textStateCap.SCI_SETHSCROLLBAR, 0)
 
         self.setAcceptDrops(True)
@@ -36,10 +35,15 @@ class MainWindow(QMainWindow, Ui_MainWindow):
  
     def dropEvent(self, event):
         print 'Dropped file: ' + self.droppedFile # displays the file name   
+
         if zipfile.is_zipfile(self.droppedFile):
+
             print 'is zipfile'
+
             with zipfile.ZipFile(str(self.droppedFile)) as tempZip:
+
                 print 'Extract to: ' + str(self.droppedFile.split(os.sep)[len(self.droppedFile.split(os.sep)) - 1].split('.')[0])
+
                 tempZip.extractall(str(self.droppedFile.split(os.sep)[len(self.droppedFile.split(os.sep)) - 1].split('.')[0]))
                 self.load_bundle(self.droppedFile.split('.')[0])
 
