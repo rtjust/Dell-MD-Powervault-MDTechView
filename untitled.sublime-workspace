@@ -16,6 +16,14 @@
 			}
 		},
 		{
+			"file": "MDTechView.sublime-project",
+			"settings":
+			{
+				"buffer_size": 115,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "MELEvent.py",
 			"settings":
 			{
@@ -104,7 +112,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -138,6 +146,33 @@
 				},
 				{
 					"buffer": 1,
+					"file": "MDTechView.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "MELEvent.py",
 					"semi_transient": false,
 					"settings":
@@ -166,7 +201,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "MDSupportBundle.py",
 					"semi_transient": false,
 					"settings":
@@ -232,7 +267,7 @@
 	{
 		"height": 100.0
 	},
-	"project": "MDTechView.sublime-project",
+	"project": "untitled.sublime-project",
 	"replace":
 	{
 		"height": 0.0
