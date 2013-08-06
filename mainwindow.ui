@@ -28,6 +28,13 @@
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Drag and drop MD support bundle zip or use File -&gt; Open bundle...</string>
+      </property>
+     </widget>
+    </item>
+    <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="acceptDrops">
        <bool>true</bool>
@@ -36,7 +43,7 @@
        <string notr="true"/>
       </property>
       <property name="currentIndex">
-       <number>4</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <property name="sizePolicy">
@@ -188,29 +195,6 @@
         </item>
        </layout>
       </widget>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLabel" name="labelPath">
-      <property name="acceptDrops">
-       <bool>true</bool>
-      </property>
-      <property name="text">
-       <string>Current Bundle Path:  </string>
-      </property>
-      <property name="textFormat">
-       <enum>Qt::PlainText</enum>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pushButton">
-      <property name="acceptDrops">
-       <bool>true</bool>
-      </property>
-      <property name="text">
-       <string>Open Bundle</string>
-      </property>
      </widget>
     </item>
    </layout>

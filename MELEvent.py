@@ -15,4 +15,3 @@ class MELEvent(object):
     component_location = ''
     logged_by = ''
     raw_data = ''
-

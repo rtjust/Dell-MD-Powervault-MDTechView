@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Thu Jul 18 01:47:17 2013
+# Created: Thu Jul 18 11:09:21 2013
 #      by: PyQt4 UI code generator 4.9.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -29,6 +29,9 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
         self.verticalLayout_2 = QtGui.QVBoxLayout(self.centralwidget)
         self.verticalLayout_2.setObjectName(_fromUtf8("verticalLayout_2"))
+        self.label = QtGui.QLabel(self.centralwidget)
+        self.label.setObjectName(_fromUtf8("label"))
+        self.verticalLayout_2.addWidget(self.label)
         self.tabWidget = QtGui.QTabWidget(self.centralwidget)
         self.tabWidget.setAcceptDrops(True)
         self.tabWidget.setStyleSheet(_fromUtf8(""))
@@ -131,15 +134,6 @@ class Ui_MainWindow(object):
         self.verticalLayout_6.addWidget(self.textiSCSI)
         self.tabWidget.addTab(self.tab_5, _fromUtf8(""))
         self.verticalLayout_2.addWidget(self.tabWidget)
-        self.labelPath = QtGui.QLabel(self.centralwidget)
-        self.labelPath.setAcceptDrops(True)
-        self.labelPath.setTextFormat(QtCore.Qt.PlainText)
-        self.labelPath.setObjectName(_fromUtf8("labelPath"))
-        self.verticalLayout_2.addWidget(self.labelPath)
-        self.pushButton = QtGui.QPushButton(self.centralwidget)
-        self.pushButton.setAcceptDrops(True)
-        self.pushButton.setObjectName(_fromUtf8("pushButton"))
-        self.verticalLayout_2.addWidget(self.pushButton)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1032, 22))
@@ -157,18 +151,17 @@ class Ui_MainWindow(object):
         self.menubar.addAction(self.menuFile.menuAction())
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(4)
+        self.tabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QtGui.QApplication.translate("MainWindow", "MD TechView Alpha - Drag and drop zip or click Open Bundle", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("MainWindow", "Drag and drop MD support bundle zip or use File -> Open bundle...", None, QtGui.QApplication.UnicodeUTF8))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QtGui.QApplication.translate("MainWindow", "Array Profile", None, QtGui.QApplication.UnicodeUTF8))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), QtGui.QApplication.translate("MainWindow", "Recovery Guru", None, QtGui.QApplication.UnicodeUTF8))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), QtGui.QApplication.translate("MainWindow", "MEL", None, QtGui.QApplication.UnicodeUTF8))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_4), QtGui.QApplication.translate("MainWindow", "State Capture", None, QtGui.QApplication.UnicodeUTF8))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_5), QtGui.QApplication.translate("MainWindow", "iSCSI Sessions", None, QtGui.QApplication.UnicodeUTF8))
-        self.labelPath.setText(QtGui.QApplication.translate("MainWindow", "Current Bundle Path:  ", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButton.setText(QtGui.QApplication.translate("MainWindow", "Open Bundle", None, QtGui.QApplication.UnicodeUTF8))
         self.menuFile.setTitle(QtGui.QApplication.translate("MainWindow", "File", None, QtGui.QApplication.UnicodeUTF8))
         self.actionOpen_bundle.setText(QtGui.QApplication.translate("MainWindow", "Open bundle...", None, QtGui.QApplication.UnicodeUTF8))
         self.actionExit.setText(QtGui.QApplication.translate("MainWindow", "Exit", None, QtGui.QApplication.UnicodeUTF8))

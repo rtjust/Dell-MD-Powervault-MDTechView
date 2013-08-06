@@ -15,10 +15,14 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         self.setupUi(self)
         
-        self.pushButton.clicked.connect(self.show_dialog)
+        self.actionOpen_bundle.triggered.connect(self.show_dialog)
+        self.actionExit.triggered.connect(QCoreApplication.instance().quit)
 
         self.setAcceptDrops(True)
         self.droppedFile = None
+
+        self.melTable.setAlternatingRowColors(True)
+        # self.melTable.setHorizontalHeaderLabels(['test'])
 
 
     def dragEnterEvent(self, event):
@@ -60,10 +64,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.textStateCap.clear()
 
         if bundle_path:
-            self.labelPath.setText('Current Bundle Path: ' + bundle_path)
             self.setWindowTitle('MD TechView Alpha - ' + bundle_path)
         else:
-            self.labelPath.setText('Current Bundle Path: None')
             self.setWindowTitle('MD TechView Alpha - None')
 
              
@@ -84,6 +86,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         tablemodel = MyTableModel(support_bundle.parse_mel(), self)
         self.melTable.setModel(tablemodel)
 
+        for col in range(0,9):
+            self.melTable.resizeColumnToContents(col)
+
         # Load State Cap
         self.textStateCap.setText(support_bundle.get_state_capture_data())
 
@@ -91,6 +96,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.textiSCSI.setText(support_bundle.get_iscsi_sessions())
 
 class MyTableModel(QAbstractTableModel):
+    header_labels = ['Date\Time', 'Type', 'Category', 'Priority', 'Description', 'Codes', 'Component Type', 'Component Location', 'Logged By']
+
     def __init__(self, datain, parent=None, *args):
         QAbstractTableModel.__init__(self, parent, *args)
         self.listdata = datain
@@ -99,11 +106,14 @@ class MyTableModel(QAbstractTableModel):
         return len(self.listdata)
 
     def columnCount(self, parent):
-        return 10 # hard coded, 10 items in mel that are relevant, needs to be implemented properly
+        return 9 # hard coded, 10 items in mel that are relevant, needs to be implemented properly
 
     def data(self, index, role):
         if not index.isValid():
             return QVariant()
+        elif role == Qt.BackgroundRole:
+            if self.listdata[index.row()].priority.strip() == 'Critical':
+                return QBrush(QColor(255, 0, 0, 100))
         elif role != Qt.DisplayRole:
             return QVariant()
         elif index.column() == 0:
@@ -126,6 +136,12 @@ class MyTableModel(QAbstractTableModel):
             return self.listdata[index.row()].logged_by
         else:
             return ''
+
+    def headerData(self, section, orientation, role=Qt.DisplayRole):
+        if role == Qt.DisplayRole and orientation == Qt.Horizontal:
+            return self.header_labels[section]
+        return QAbstractTableModel.headerData(self, section, orientation, role)
+
 
 
 def main():
