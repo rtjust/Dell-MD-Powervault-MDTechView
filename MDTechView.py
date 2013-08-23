@@ -106,12 +106,13 @@ class MyTableModel(QAbstractTableModel):
         return len(self.listdata)
 
     def columnCount(self, parent):
-        return 9 # hard coded, 10 items in mel that are relevant, needs to be implemented properly
+        return 9 # hard coded, 9 items in mel that are relevant, needs to be implemented properly
 
     def data(self, index, role):
         if not index.isValid():
             return QVariant()
         elif role == Qt.BackgroundRole:
+            # Color the rows of Critical events RED
             if self.listdata[index.row()].priority.strip() == 'Critical':
                 return QBrush(QColor(255, 0, 0, 100))
         elif role != Qt.DisplayRole:

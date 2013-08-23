@@ -3,6 +3,34 @@
 	{
 		"selected_items":
 		[
+			[
+				"col",
+				"columnCount"
+			],
+			[
+				"mel",
+				"melTable"
+			],
+			[
+				"sho",
+				"show_dialog"
+			],
+			[
+				"bund",
+				"bundle_path"
+			],
+			[
+				"c",
+				"column"
+			],
+			[
+				"drop",
+				"droppedFile"
+			],
+			[
+				"get",
+				"get_major_event_log"
+			]
 		]
 	},
 	"buffers":
@@ -11,16 +39,32 @@
 			"file": "MDTechView.py",
 			"settings":
 			{
-				"buffer_size": 3325,
+				"buffer_size": 5416,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\nDatabase Fundamentals\nSystems Development Methods\nIntroduction to Programming	\nC++ Programming\nObject Oriented Programming With C++\nJava Programming\nAdvanced Java Programming\nSELECT 1 COURSE FROM THE FOLLOWING:\nComputer Operating Systems and Maintenance I\niSeries CL and File Design\nIntroduction to Windows\nIntroductory Algebra\nIntermediate Algebra\nGeneral Psychology",
+			"settings":
+			{
+				"buffer_size": 368,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "MELEvent.py",
 			"settings":
 			{
-				"buffer_size": 445,
+				"buffer_size": 443,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Ui_mainwindow.py",
+			"settings":
+			{
+				"buffer_size": 9386,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -59,8 +103,9 @@
 	},
 	"file_history":
 	[
-		"/Volumes/Backup/Dropbox/Projects/MDTechView/MDTechView.sublime-project",
+		"/Volumes/Backup/Dropbox/Projects/MDTechView/mainwindow.ui",
 		"/Volumes/Backup/Dropbox/Projects/MDTechView/Ui_mainwindow.py",
+		"/Volumes/Backup/Dropbox/Projects/MDTechView/MDTechView.sublime-project",
 		"/Volumes/Backup/Dropbox/Projects/MDTechView/setup.py",
 		"/Volumes/Backup/Dropbox/Projects/helloworld/stylesheets/main.css",
 		"/Volumes/Backup/Dropbox/Projects/helloworld/app.yaml",
@@ -73,7 +118,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -87,6 +132,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"elf.droppedFile"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -104,7 +150,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -113,15 +159,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3325,
+						"buffer_size": 5416,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								266,
-								266
+								3920,
+								3920
 							]
 						],
 						"settings":
@@ -131,33 +177,31 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1228.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "MELEvent.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 445,
+						"buffer_size": 368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								368,
+								1
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -167,6 +211,64 @@
 				},
 				{
 					"buffer": 2,
+					"file": "MELEvent.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Ui_mainwindow.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "MDSupportBundle.py",
 					"semi_transient": false,
 					"settings":
@@ -178,8 +280,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								4290,
+								4250
 							]
 						],
 						"settings":
@@ -199,7 +301,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -230,12 +332,12 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 100.0
+		"height": 210.0
 	},
 	"project": "MDTechView.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
